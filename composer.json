@@ -1,0 +1,45 @@
+{
+    "name": "philvv/slim-api-starter",
+    "type": "project",
+    "description": "Slim 3 starter for JSON API with console",
+    "keywords": ["Slim 3", "Slim 3 skeleton", "Slim 3 starter", "Slim 3 console", "Slim 3 cli"],
+    "homepage": "https://github.com/philvv/SlimApiStarter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phillip McKeown",
+            "email": "phillip@viodev.com",
+            "homepage": "https://www.viodev.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "Lib\\": "lib"
+        },
+        "files": [
+            "lib/helpers.php"
+        ]
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "tuupola/cors-middleware": "^0.9.2",
+        "monolog/monolog": "^1.0",
+        "symfony/process": "^4.2",
+        "symfony/console": "^4.2",
+        "symfony/event-dispatcher": "^4.2",
+        "symfony/var-dumper": "^4.2",
+        "vlucas/phpdotenv": "^3.0",
+        "adbario/php-dot-notation": "^2.2",
+        "nesbot/carbon": "^1.0",
+        "respect/validation": "^1.1",
+        "egulias/email-validator": "^2.1",
+        "php-curl-class/php-curl-class": "^8.3",
+        "firebase/php-jwt": "^5.0",
+        "dragonmantank/cron-expression": "^2.2",
+        "illuminate/support": "^5.8",
+        "illuminate/filesystem": "^5.8",
+        "moontoast/math": "^1.1",
+        "ramsey/uuid": "^3.7"
+    }
+}
