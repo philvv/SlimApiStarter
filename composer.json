@@ -31,7 +31,7 @@
         "symfony/var-dumper": "^4.2",
         "vlucas/phpdotenv": "^3.0",
         "adbario/php-dot-notation": "^2.2",
-        "nesbot/carbon": "^1.0",
+        "nesbot/carbon": "^2.16",
         "respect/validation": "^1.1",
         "egulias/email-validator": "^2.1",
         "php-curl-class/php-curl-class": "^8.3",
